@@ -17,6 +17,8 @@ $JWT_AUTH_SECRET_KEY = '123456789';
 define('JWT_AUTH_SECRET_KEY', $JWT_AUTH_SECRET_KEY);
 define('JWT_AUTH_CORS_ENABLE', true);
 
+define('ODOO_CE_DATA_ENDPOINT', 'https://example.com/ce/<id>');
+//
 add_action('init', 'ce_register_meta_fields');
 function ce_register_meta_fields()
 {
