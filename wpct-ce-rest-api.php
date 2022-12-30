@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Plugin Name:     WPCT REST API CE
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
+ * Plugin Name:     Wpct Rest API CE's
+ * Plugin URI:      https://git.coopdevs.org/coopdevs/website/wp/wp-plugins/wpct-rest-api-ce
+ * Description:     CE Communities content driven by a rest api connection between WP and Odoo
  * Author:          Còdec
- * Author URI:      YOUR SITE HERE
+ * Author URI:      https://www.codeccoop.org
  * Text Domain:     wpct-rest-api-ce
  * Domain Path:     /languages
  * Version:         0.1.0
@@ -54,4 +54,16 @@ function ce_update_odoo_id($value, $object, $field_name)
 {
     if (!$value) return;
     return update_post_meta($object->ID, 'odoo_community_id', abs((int) $value));
+}
+
+add_filter('single_template', 'wpct_rest_api_ce_template');
+function wpct_rest_api_ce_template($template, $type = null)
+{
+    global $post;
+    if ($post->post_type === 'ce_community') {
+        $dir = plugin_dir_path(__DIR__);
+        return $dir . 'wpct-rest-api-ce/templates/single.php';
+    }
+
+    return $template;
 }
