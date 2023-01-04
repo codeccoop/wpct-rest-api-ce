@@ -1,6 +1,6 @@
 
 {
-  "name": "wpct-ce-rest-api",
+  "name": "wpct-rest-ces",
   "version": "0.1.0",
   "main": "Gruntfile.js",
   "author": "Còdec",
