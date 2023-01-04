@@ -1,0 +1,96 @@
+{
+  "community": {
+    "id": 5,
+    "name": "Comunitat Energètica Prova",
+    "birth_date": "1999-02-01",
+    "members": [
+      {
+        "name": "Enrico Stano",
+        "role": "ce_member_role",
+        "email": "enricostn@gmail.com",
+        "keycloak_id": "7c0b6ee9-be62-4c48-ac8d-86c628fec8b0"
+      },
+      {
+        "name": "Enrico Stano Stano (CEprova)",
+        "role": "ce_admin_role",
+        "email": "enricostn+1@gmail.com",
+        "keycloak_id": "b72e46f3-3d32-4153-935d-d0cb0d204f38"
+      },
+      {
+        "name": "Long long long Name Very longlonglong Lastname",
+        "role": "ce_admin_role",
+        "email": "benjami.ramos@somenergia.coop",
+        "keycloak_id": "d1f11d07-4085-46a2-b410-849a15b86287"
+      },
+      {
+        "name": "Marc Roselló",
+        "role": "ce_admin_role",
+        "email": "marc.rosello@somenergia.coop",
+        "keycloak_id": "4c635922-2144-433a-b30c-7fd93fcbc927"
+      },
+      {
+        "name": "Merce Rua",
+        "role": "ce_admin_role",
+        "email": "merce@holon.cat",
+        "keycloak_id": "2813e1ec-bec9-4600-97a3-f809cab3dc67"
+      },
+      {
+        "name": "Persona Administradora",
+        "role": "ce_admin_role",
+        "email": "info+ADMIN_CE_PROVA@somcomunitats.coop",
+        "keycloak_id": "be48df57-158a-4c9c-acf2-20168b717041"
+      },
+      {
+        "name": "Persona Veïna",
+        "role": "ce_member_role",
+        "email": "info+VEINA_CE_PROVA@somcomunitats.coop",
+        "keycloak_id": "92bbce6c-59e5-4a04-a90f-82f7ef83bf08"
+      },
+      {
+        "name": "Rosanna taruguin",
+        "role": "ce_member_role",
+        "email": "jaja|@jeje22.com",
+        "keycloak_id": "4e2dc17b-fca4-4e9c-b83a-87b713f40ba0"
+      }
+    ],
+    "contact_info": {
+      "street": "Carrer Major 1",
+      "postal_code": "25615",
+      "city": "Rúbies",
+      "state": "Lleida (Lérida)",
+      "country": "Spain",
+      "phone": "973252525",
+      "email": "info+CE_PROVA@somcomunitats.coop",
+      "telegram": "@ce_prova_telegram"
+    },
+    "active_services": [
+      {
+        "id": 56,
+        "name": "Generació renovable comunitaria"
+      },
+      {
+        "id": 57,
+        "name": "Eficiencia energètica"
+      },
+      {
+        "id": 58,
+        "name": "Mobilitat sostenible"
+      },
+      {
+        "id": 60,
+        "name": "Energia tèrmica i climatització"
+      },
+      {
+        "id": 62,
+        "name": "Subministrament d'energia 100% renovable"
+      },
+      {
+        "id": 63,
+        "name": "Agregació i flexibilitat de la demanda"
+      }
+    ],
+    "allow_new_members": true,
+    "public_web_landing_url": "https://somcomunitats.coop/ce/comunitat-energetica-prova/",
+    "keycloak_odoo_login_url": "https://auth-test.somcomunitats.coop/auth/realms/5/protocol/openid-connect/auth?response_type=token&client_id=odoo&redirect_uri=https%3A%2F%2Ferp-test.somcomunitats.coop%2Fauth_oauth%2Fsignin&scope=openid&state=%7B%22d%22%3A+%22odoo%22%2C+%22p%22%3A+46%2C+%22r%22%3A+%22https%253A%252F%252Ferp-test.somcomunitats.coop%252Fweb%22%7D"
+  }
+}
